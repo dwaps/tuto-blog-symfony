@@ -1,0 +1,25 @@
+<!--
+Author: Michael Cornillon
+Organisation: DWAPS Formation
+Address: 28 ZA de Labahou, 30140 Anduze, FRANCE
+Tel: +33651279211
+Email: contact@dwaps.fr
+Date: 08/08/2017
+Version: 0.1.0
+Licence: MIT
+Description: TP pour la formation sur Symfony
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}DWAPS Formation{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
